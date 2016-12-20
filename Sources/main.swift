@@ -15,7 +15,7 @@ SessionConfig.idle = 10
 
 SQLiteConnector.db = "./SessionDB"
 
-StORMdebug = true
+//StORMdebug = true
 
 let sessionDriver = SessionSQLiteDriver()
 
