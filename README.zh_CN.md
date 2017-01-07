@@ -59,7 +59,7 @@
 
 Session ID 和会话数据将会被展示在页面上。刷新页面会看到随机产生的数据添加到会话数据中。如果等待超过10s 才刷新一次页面，在页面上看到的将会是另一个 Session，会有不一样的 Session ID。
 
-### Xcode
+### 准备工作 - 使用 Xcode
 
 我们建议用 [Perfect Assistant](http://perfect.org/en/assistant/) 管理 Swift 服务端项目。
 
@@ -71,7 +71,7 @@ Session ID 和会话数据将会被展示在页面上。刷新页面会看到随
 
 然后，运行项目。
 
-### 终端
+### 准备工作 - 使用终端
 
 下面的命令会克隆和编译示例项目，并且启动绑定8181端口的服务程序。
 
@@ -90,7 +90,7 @@ Starting HTTP server on 0.0.0.0:8181 with document root ./webroot
 
 这段输出代表着服务器正常运作，并且等待着访问。访问 [http://localhost:8181/](http://127.0.0.1:8181/) 会看到欢迎语。按快捷键`control-c`可以终止服务器程序。
 
-## Issues
+## 问题报告
 
 我们正在逐步过渡到 JIRA 来接收 Bug 的报告和 Issues，而之前使用的 GitHub issues 将会被弃用。
 
