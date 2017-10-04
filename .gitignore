@@ -70,3 +70,5 @@ Package.swift.orig
 .packages_lin
 SessionDB
 StORMlog.txt
+Package.resolved
+PADockerfile_build
